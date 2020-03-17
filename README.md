@@ -1,6 +1,6 @@
 # Face Detection Using OpenCV
 First of all we need to install OpenCV. We can install it using pip:
-                                               pip install opencv-python
+                                              pip install opencv-python
 We need to download the trained classifier XML file (haarcascade_frontalface_default.xml), which is available in OpenCv’s GitHub repository and save it to working directory.
 Cascade classifiers are trained on a few hundred sample images of image that contain the object we want to detect, and other images that do not contain those images.
 There is an algorithm, called Viola–Jones object detection framework, that includes all the steps required for live face detection:
